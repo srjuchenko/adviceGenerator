@@ -12,4 +12,18 @@ diceBtnEl.addEventListener("click", function (e) {
       adviceTextEl.textContent = `"${data.slip.advice}"`;
     })
     .catch(() => (adviceTextEl.textContent = "Can't connect to the API"));
+
+  this.style.boxShadow = "0 0 20px #52ffa8";
+  setTimeout(function () {
+    diceBtnEl.style.boxShadow = "none";
+  }, 200);
+});
+
+diceBtnEl.addEventListener("mouseover", function (e) {
+  this.style.boxShadow = "0 0 20px #52ffa8";
+  this.style.cursor = "pointer";
+});
+
+diceBtnEl.addEventListener("mouseleave", function (e) {
+  this.style.boxShadow = "none";
 });

@@ -67,15 +67,10 @@ body {
   border-radius: 100%;
   background-color: #52ffa8;
   transition: 0.3s;
-}
-
-.advice-dice:hover {
-  cursor: pointer;
-  box-shadow: 0 0 20px #52ffa8;
+  box-shadow: none;
 }
 
 /*----- FOOTER -----*/
-
 footer {
   margin-top: 5rem;
   color: #cee3e9;
