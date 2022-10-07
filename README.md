@@ -1,4 +1,4 @@
-# adviceGenerator
+# AdviceGenerator
 - A component that shows random advice via "advice slip JSON API"
 
 ## Frontend Mentor - Advice generator app solution
