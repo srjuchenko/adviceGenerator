@@ -1,17 +1,4 @@
-/* ## Colors
-
-### Primary
-
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
-
-### Neutral
-
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%) */
-
-/* RESET */
+/*----- RESET -----*/
 
 * {
   padding: 0;
@@ -34,7 +21,8 @@ body {
   background-color: #1f2632;
 }
 
-/* MAIN */
+/*------ MAIN ------*/
+
 .advice-box {
   position: relative;
   max-width: 54rem;
@@ -86,7 +74,7 @@ body {
   box-shadow: 0 0 20px #52ffa8;
 }
 
-/* FOOTER */
+/*----- FOOTER -----*/
 
 footer {
   margin-top: 5rem;
@@ -102,7 +90,8 @@ footer {
   color: #52ffa8;
 }
 
-/* MEDIA QUERY */
+/*----- MEDIA QUERY -----*/
+
 @media screen and (max-width: 550px) {
   .advice-box {
     padding: 4rem 2rem 6rem 2rem;
