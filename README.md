@@ -1,4 +1,5 @@
 # adviceGenerator
+- A component that shows random advice via "advice slip JSON API"
 
 ## Frontend Mentor - Advice generator app solution
 
@@ -13,4 +14,5 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - JavaScript
 - [Advice Slip API](https://api.adviceslip.com)
 
-### Screenshots
+### Screenshot
+![image](https://user-images.githubusercontent.com/76474133/194526367-5d87bf98-b9dc-407d-82be-e7a4606aabc2.png)
